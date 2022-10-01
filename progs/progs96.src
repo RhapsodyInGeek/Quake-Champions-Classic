@@ -1,0 +1,43 @@
+../progs.dat
+
+96/defs.qc
+qcc/qccdefs.qc // Quake Champions Classic
+96/subs.qc
+96/fight.qc
+96/ai.qc
+96/combat.qc
+96/items.qc
+96/weapons.qc
+96/world.qc
+96/client.qc
+96/player.qc
+96/monsters.qc
+96/doors.qc
+96/buttons.qc
+96/triggers.qc
+96/plats.qc
+96/misc.qc
+
+96/ogre.qc
+96/demon.qc
+96/shambler.qc
+96/knight.qc
+96/soldier.qc
+96/wizard.qc
+96/dog.qc
+96/zombie.qc
+96/boss.qc
+
+96/tarbaby.qc		// registered
+96/hknight.qc		// registered
+96/fish.qc			// registered
+96/shalrath.qc		// registered
+96/enforcer.qc		// registered
+96/oldone.qc		// registered
+
+// Quake Champions Classic
+qcc/qccchamps.qc
+qcc/qccranger.qc
+qcc/qccdeathknight.qc
+qcc/goroth.qc
+qcc/volkerh.qc

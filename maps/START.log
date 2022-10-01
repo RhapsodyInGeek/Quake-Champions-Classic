@@ -1,0 +1,82 @@
+---- qbsp / ericw-tools v0.18.1 ----
+Input file: START.map
+Output file: START.bsp
+
+---- LoadMapFile ----
+         7578 faces
+         1274 brushes
+          385 entities
+           73 unique texnames
+          248 texinfo
+
+Opened WAD: gfx/start.wad
+Processing hull 0...
+---- Brush_LoadEntity ----
+         1142 brushes
+          940 planes
+---- CSGFaces ----
+         6792 brushfaces
+         7366 csgfaces
+         5872 mergedfaces
+---- SolidBSP ----
+        10361 split nodes
+         4429 solid leafs
+         5621 empty leafs
+          312 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+        15823 leaffaces
+        14750 nodefaces
+---- Portalize ----
+         5933 vis leafs
+         5933 vis clusters
+        17577 vis portals
+---- FillOutside ----
+         2896 outleafs
+---- MergeAll ----
+         4443 mergefaces
+---- SolidBSP ----
+         2945 split nodes
+         1591 solid leafs
+         1238 empty leafs
+          117 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+         6793 leaffaces
+         5495 nodefaces
+---- Portalize ----
+         1355 vis leafs
+         1355 vis clusters
+         3803 vis portals
+---- Tjunc ----
+         5386 world edges
+        19678 edge points
+         4773 edges added by tjunctions
+            0 faces added by tjunctions
+---- MakeFaceEdges ----
+---- GrowRegions ----
+Processing hull 1...
+Processing hull 2...
+---- WriteBSPFile ----
+Wrote START.bsp
+         1519 planes            30380
+         8098 vertexes          97176
+         3430 nodes             82320
+          196 texinfo            7840
+         6117 faces            122340
+         4946 clipnodes         39568
+         1793 leafs             50204
+         7415 marksurfaces      14830
+        29204 surfedges        116816
+        14847 edges             59388
+           81 textures         646096
+              lightdata             0
+              visdata               0
+              entdata           27817
+
+0.674 seconds elapsed
+Peak memory usage: 49808200 (47.5M)

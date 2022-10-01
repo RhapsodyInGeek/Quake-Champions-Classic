@@ -1,0 +1,37 @@
+---- light / ericw-tools v0.18.1 ----
+extra 2x2 sampling enabled
+Raytracing backend: Embree
+running with 15 threads
+.lit colored light output requested on command line.
+LoadBSPFile: 'VOLKERH.bsp'
+BSP is version 29
+--- LoadEntities ---
+35 entities read, 29 are lights.
+--- OptionsSummary ---
+    "bouncescale" was set to "1.000000" from commandline
+Embree_TraceInit: Embree version: 2.15.0
+Embree_TraceInit:
+	308 sky faces
+	1010 solid faces
+	0 filtered faces
+	0 shadow-casting skip faces
+SetupLights: 29 initial lights
+SetupLights: 29 after surface lights
+SetupLights: 29 after jittering
+--- EstimateLightVisibility ---
+0....1....2....3....4....5....6....7....8....9...
+Final count: 29 lights 1 suns in use.
+--- LightWorld ---
+0....1....2....3....4....5....6....7....8....9....
+Lighting Completed.
+
+lightdatasize: 37541
+Writing VOLKERH.lit
+0 switchable light styles (32 max)
+Writing VOLKERH.bsp as BSP version 29
+0.098 seconds elapsed
+
+stats:
+3.895520 lights tested, 2.513109 hits per sample point
+0.000000 bounce lights tested, 0.000000 hits per sample point
+0 empty lightmaps

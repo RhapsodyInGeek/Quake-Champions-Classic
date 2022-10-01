@@ -1,0 +1,46 @@
+../progs.dat
+
+rr/defs.qc
+qcc/qccdefs.qc // Quake Champions Classic
+rr/subs.qc
+rr/fight.qc
+rr/ai.qc
+rr/combat.qc
+rr/itemnames.qc
+rr/items.qc
+rr/weapons.qc
+rr/world.qc
+rr/client.qc
+rr/player.qc
+rr/monsters.qc
+rr/doors.qc
+rr/buttons.qc
+rr/triggers.qc
+rr/plats.qc
+rr/misc.qc
+
+rr/monsters/ogre.qc
+rr/monsters/fiend.qc
+rr/monsters/shambler.qc
+rr/monsters/knight.qc
+rr/monsters/grunt.qc
+rr/monsters/scrag.qc
+rr/monsters/rottweiler.qc
+rr/monsters/zombie.qc
+rr/monsters/chthon.qc
+
+rr/monsters/spawn.qc		// registered
+rr/monsters/hellknight.qc	// registered
+rr/monsters/rotfish.qc		// registered
+rr/monsters/vore.qc			// registered
+rr/monsters/enforcer.qc		// registered
+rr/monsters/shub.qc			// registered
+
+rr/bots/bot.qc				// bot support
+
+// Quake Champions Classic
+qcc/qccchamps.qc
+qcc/qccranger.qc
+qcc/qccdeathknight.qc
+qcc/goroth.qc
+qcc/volkerh.qc

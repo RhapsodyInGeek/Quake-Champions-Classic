@@ -1,0 +1,65 @@
+---- qbsp / ericw-tools v0.18.1 ----
+Input file: qc_insomnia.map
+Output file: qc_insomnia.bsp
+
+---- LoadMapFile ----
+*** WARNING 06: No info_player_deathmatch entities in level
+          275 faces
+           46 brushes
+            3 entities
+            1 unique texnames
+            9 texinfo
+
+*** WARNING 00: No wad or _wad key exists in the worldmodel
+Processing hull 0...
+---- Brush_LoadEntity ----
+           46 brushes
+           75 planes
+---- CSGFaces ----
+          275 brushfaces
+          261 csgfaces
+          228 mergedfaces
+---- SolidBSP ----
+          288 split nodes
+          117 solid leafs
+          172 empty leafs
+            0 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+          455 leaffaces
+          430 nodefaces
+---- Portalize ----
+          172 vis leafs
+          172 vis clusters
+          457 vis portals
+---- FillOutside ----
+*** WARNING 10: Reached occupant at (32 368 -64), no filling performed.
+Leak file written to qc_insomnia.pts
+---- MakeFaceEdges ----
+---- GrowRegions ----
+Processing hull 1...
+*** WARNING 10: Reached occupant at (32 368 -64), no filling performed.
+Processing hull 2...
+*** WARNING 19: No entities in empty space -- no filling performed (hull 2)
+*** WARNING 16: Texture __TB_empty not found
+---- WriteBSPFile ----
+Wrote qc_insomnia.bsp
+          125 planes             2500
+          490 vertexes           5880
+          288 nodes              6912
+            9 texinfo             360
+          430 faces              8600
+          585 clipnodes          4680
+          173 leafs              4844
+          455 marksurfaces        910
+         1718 surfedges          6872
+         1095 edges              4380
+            1 textures              8
+              lightdata             0
+              visdata               0
+              entdata             202
+
+0.026 seconds elapsed
+Peak memory usage: 2734042 (2.6M)

@@ -1,0 +1,7 @@
+---- vis / ericw-tools v0.18.1 ----
+running with 15 threads
+testlevel = 4
+LoadBSPFile: 'qc_insomnia.bsp'
+BSP is version 29
+LoadPortals: couldn't read qc_insomnia.prt
+No vising performed.

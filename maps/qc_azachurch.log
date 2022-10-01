@@ -1,0 +1,65 @@
+---- qbsp / ericw-tools v0.18.1 ----
+Input file: qc_azachurch.map
+Output file: qc_azachurch.bsp
+
+---- LoadMapFile ----
+*** WARNING 06: No info_player_deathmatch entities in level
+         1554 faces
+          256 brushes
+           13 entities
+           15 unique texnames
+          106 texinfo
+
+Opened WAD: C:/QUAKEDEV/qcc/maps/gfx/quake101.wad
+Processing hull 0...
+---- Brush_LoadEntity ----
+          255 brushes
+          348 planes
+---- CSGFaces ----
+         1548 brushfaces
+         1416 csgfaces
+         1238 mergedfaces
+---- SolidBSP ----
+         1230 split nodes
+          495 solid leafs
+          735 empty leafs
+            1 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+         2710 leaffaces
+         2429 nodefaces
+---- Portalize ----
+          736 vis leafs
+          736 vis clusters
+         2027 vis portals
+---- FillOutside ----
+*** WARNING 10: Reached occupant at (208 -984 456), no filling performed.
+Leak file written to qc_azachurch.pts
+---- MakeFaceEdges ----
+---- GrowRegions ----
+Processing hull 1...
+*** WARNING 10: Reached occupant at (216 -928 600), no filling performed.
+Processing hull 2...
+*** WARNING 10: Reached occupant at (216 -928 600), no filling performed.
+*** WARNING 16: Texture __TB_empty not found
+---- WriteBSPFile ----
+Wrote qc_azachurch.bsp
+          780 planes            15600
+         2962 vertexes          35544
+         1236 nodes             29664
+           87 texinfo            3480
+         2435 faces             48700
+         3086 clipnodes         24688
+          743 leafs             20804
+         2716 marksurfaces       5432
+         9644 surfedges         38576
+         6317 edges             25268
+           15 textures         125744
+              lightdata             0
+              visdata               0
+              entdata             876
+
+0.134 seconds elapsed
+Peak memory usage: 15884224 (15.1M)
